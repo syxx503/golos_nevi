@@ -15,14 +15,13 @@
 				<div class="header__row df">
 					<div class="header__column header__column_1 df">
 						<div class="header__logo-wrap">
-							<img  class="header__logo scaleble" src="images/logo/logo.svg" alt="Голос Невы">
+							<img class="header__logo scaleble goto" src="images/logo/logo.svg" alt="Голос Невы" data-goto=".main">
 						</div>
 					</div>
 					<div class="header__column header__column_2 df">
 						<div class="header__content">
 							<nav class="header__nav df">
 								<ul class="header__list df">
-									<li class="header__list-item"><span class="header__list-item-span" data-link=".about">О нас</span></li>
 									<li class="header__list-item"><span class="header__list-item-span" data-link=".courses">Курсы</span></li>
 									<li class="header__list-item"><span class="header__list-item-span" data-link=".certificates">Преподаватели</span></li>
 									<li class="header__list-item"><span class="header__list-item-span"  data-link=".contacts">Контакты</span></li>
@@ -46,9 +45,9 @@
 		<div class="container">
 			<div class="main__wrapper">
 				<div class="main__backround unselect">
-					<img src="images/main/bg.jpg" alt="Background">
+					<img src="images/main/bg.svg" alt="Background">
 				</div>
-				<div class="main__arrow unselect">
+				<div class="main__arrow unselect goto" data-goto=".about">
 					<img src="images/icons/down.svg" alt="Down">
 				</div>
 				<div class="main__row df">
@@ -131,15 +130,57 @@
 			</div>
 		</div>
 	</section>
-	<!-- <section class="form">
+	<section class="form">
 		<div class="container">
 			<div class="form__wrapper">
-				<div class="form__content">
-					<h2 class="form__title">Прояви творчество вместе с нами вместе с <span>бесплатным</span> занятием</h2>
+				<div class="form__background">
+					<img src="images/form/bg.svg" alt="Background">
+				</div>
+				<div class="form__content df">
+					<h2 class="form__title title">Прояви творчество вместе с нами<br><span>бесплатно</span> в течение <span class="lost"></span></h2>
+					<form action="#">
+						<div class="form__input-wrap">
+							<span class="form__input-name">Имя <span>*</span></span>
+							<input class="form__input form__input_important" type="text" name="name">
+						</div>
+						<div class="form__input-wrap">
+							<span class="form__input-name">Телефон <span>*</span></span>
+							<input class="form__input form__input_important" type="tel" name="tel">
+						</div>
+						<div class="form__input-wrap">
+							<span class="form__input-name">Немного о себе</span>
+							<textarea class="form__input" name="about"></textarea>
+						</div>
+						<div class="form__submit-wrap df">
+							<input class="form__submit link scaleble" type="submit" value="Перейти к творчеству">
+						</div>
+					</form>
 				</div>
 			</div>
 		</div>
-	</section> -->
+	</section>
+	<footer class="footer">
+		<div class="map-wrap">
+			<div id="map" style="width: 100%; height: 400px;"></div>
+		</div>
+		<div class="container">
+			<div class="footer__content">
+				<div class="footer__row df">
+					<div class="footer__column footer__column_1 df">
+						<div class="footer__id-wrap">
+							<div class="footer__id">ИНН 123456789101</div>
+						</div>
+					</div>
+					<div class="footer__column footer__column_2 df">
+						<div class="footer__copyright-wrap">
+							<div class="footer__copyright">#БезТильды</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<script src="https://api-maps.yandex.ru/2.1/?apikey=cd5db98d-3ac6-47e1-b994-d3f77268c038&amp;lang=ru_RU" type="text/javascript" defer></script>
 	<script src="scripts/main.js" defer></script>
 </body>
 </html>
