@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="shortcut icon" href="../images/logo/favicon.png" type="image/png">
-	<link media="screen" onload='if(media!="all") media="all"' rel="stylesheet" href="../styles/contacts.css">
+	<link media="screen" onload='if(media!="all") media="all"' rel="stylesheet" href="../styles/courses.css">
 </head>
 <body>
 	<header class="header">
@@ -22,9 +22,9 @@
 						<div class="header__content">
 							<nav class="header__nav df">
 								<ul class="header__list df">
-									<li class="header__list-item" data-aos="fade-down" data-aos-delay="100"><a class="header__list-item-link" href="./courses" data-link=".courses">Курсы</a></li>
+									<li class="header__list-item header__list-item_active" data-aos="fade-down" data-aos-delay="100"><a class="header__list-item-link" href="./courses" data-link=".courses">Курсы</a></li>
 									<li class="header__list-item" data-aos="fade-down" data-aos-delay="200"><a class="header__list-item-link" href="./teachers" data-link=".certificates">Преподаватели</a></li>
-									<li class="header__list-item header__list-item_active" data-aos="fade-down" data-aos-delay="300"><a class="header__list-item-link" href="#"  data-link=".contacts">Контакты</a></li>
+									<li class="header__list-item" data-aos="fade-down" data-aos-delay="300"><a class="header__list-item-link" href="../contacts/"  data-link=".contacts">Контакты</a></li>
 								</ul>
 								<div class="header__call-wrap df" data-aos="fade-down" data-aos-delay="400">
 									<a class="header__call-link scaleble" href="tel:78125671209">
@@ -41,43 +41,267 @@
 			</div>
 		</div>
 	</header>
-	<section class="contacts">
+	<section class="courses">
 		<div class="container">
-			<div class="contacts__wrapper">
-				<div class="contacts__content">
-					<h1 class="contacts__title title">Свяжитесь с нами или <span>задайте вопрос ниже</span></h1>
-					<div class="contacts__flexbox df">
-						<div class="contacts__column contacts__column_1 df">
-							<div class="contacts__illlustration-wrap">
-								<img src="../images/contacts/illustration.svg" alt="Illustration">
-							</div>
-						</div>
-						<div class="contacts__column contacts__column_2 df">
-							<div class="contacts__contacts-wrap df">
-								<div class="contacts__contacts-column contacts__contacts-column_1 df">
-									<div class="contacts__contacts-item contacts__contacts-item_1 scaleble">
-										<a class="contacts__contacts-link" href="https://yandex.ru/maps/-/CHvINZI1"></a>
-										<h3 class="contacts__contacts-title"><img src="../images/icons/geo.svg" alt="Location">Адрес</h3>
-										<p class="contacts__contacts-text">Большой проспект Васильевского острова, 65</p>
-									</div>
-									<div class="contacts__contacts-item contacts__contacts-item_2 scaleble">
-										<a class="contacts__contacts-link" href="tel:+78125671209"></a>
-										<h3 class="contacts__contacts-title"><img src="../images/icons/call-yellow.svg" alt="Call">Телефон</h3>
-										<p class="contacts__contacts-text">+7 (812) 567-12-09<br>Звонки принимаются в рабочее время</p>
+			<div class="courses__wrapper">
+				<div class="courses__content">
+					<h1 class="courses__title title">Наши программы обучения</h1>
+					<h2 class="courses__subtitle">Выбирайте формат, который подойдёт именно вам — от вокала и гитары до сценического мастерства и студийной записи. Индивидуально, в группе или онлайн.</h2>
+					<div class="courses__course-category">
+						<h2 class="courses__course-category-title">Вокал</h2>
+						<div class="courses__course-category-flexbox courses__course-category-flexbox_five df">
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Групповые занятия (до 5 человек, 60 мин)</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Разовое занятие — 1000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 8 занятий — 7000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 24 занятия — 21000 ₽</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
 									</div>
 								</div>
-								<div class="contacts__contacts-column contacts__contacts-column_2 df">
-									<div class="contacts__contacts-item contacts__contacts-item_2">
-										<h3 class="contacts__contacts-title"><img src="../images/icons/time.svg" alt="Location">Время работы</h3>
-										<p class="contacts__contacts-text">ПН–ВС с 11:00 до 21:00<br>Занятия проходят по предварительной записи</p>
-									</div>
-									<div class="contacts__contacts-item contacts__contacts-item_1">
-										<h3 class="contacts__contacts-title"><img src="../images/icons/star.svg" alt="Call">Email и соц. сети</h3>
-										<ul class="contacts__contacts-list">
-											<li class="contacts__contacts-list-item contacts__contacts-text"><a href="mailto:golosnevi@mail.ru" class="contacts__contacts-list-link"><img src="../images/icons/mail.svg" alt="Mail">golosnevi@mail.ru</a></li>
-											<li class="contacts__contacts-list-item contacts__contacts-text"><a href="https://vk.com/golosnevi" class="contacts__contacts-list-link"><img src="../images/icons/vk.svg" alt="VK">ВКонтакте</a></li>
-											<li class="contacts__contacts-list-item contacts__contacts-text"><a href="https://t.me/golosnevi" class="contacts__contacts-list-link"><img src="../images/icons/telegram.svg" alt="Telegram">Telegram</a></li>
+							</div>
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Индивидуальные занятия (60 мин)</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Разовое — 2000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 8 занятий — 9000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 24 занятия — 45000 ₽</span></li>
 										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Премиум (с педагогом-экспертом, 90 мин)</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Разовое — 3000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 8 занятий — 23000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 24 занятия — 69000 ₽</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Онлайн-вокал (60 мин)</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Разовое — 1700 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 8 занятий — 12600 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 24 занятия — 37800 ₽</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Парные занятия (2 чел, 90 мин)</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Разовое — 1500 ₽/чел.</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 24 занятия — 34500 ₽/чел.</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="courses__course-category">
+						<h2 class="courses__course-category-title">Гитара</h2>
+						<div class="courses__course-category-flexbox courses__course-category-flexbox_three df">
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Групповые занятия (до 5 человек, 60 мин)</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Разовое — 1500 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 8 занятий — 11000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 24 занятия — 33000 ₽</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Индивидуальные занятия (60 мин)</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Разовое — 2000 ₽</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Онлайн-занятия (60 мин)</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Разовое — 1700 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 8 занятий — 12600 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 24 занятия — 37800 ₽</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="courses__course-category">
+						<h2 class="courses__course-category-title">ОСНОВЫ СЦЕНИЧЕСКОГО ДВИЖЕНИЯ</h2>
+						<div class="courses__course-category-flexbox courses__course-category-flexbox_three df">
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Групповые занятия (до 5 человек, 60 мин)</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Разовое — 1000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 8 занятий — 7000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 24 занятия — 21000 ₽</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Индивидуальные занятия (60 мин)</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Разовое — 1500 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 8 занятий — 11000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 24 занятия — 33000 ₽</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Онлайн-занятия (60 мин)</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Разовое — 1200 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 8 занятий — 8600 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 24 занятия — 25800 ₽</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="courses__course-category">
+						<h2 class="courses__course-category-title">АКТЁРСКОЕ МАСТЕРСТВО</h2>
+						<div class="courses__course-category-flexbox courses__course-category-flexbox_three df">
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Групповые занятия (до 5 человек, 60 мин)</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Разовое — 2000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 8 занятий — 15000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 24 занятия — 45000 ₽</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Индивидуальные занятия (60 мин)</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Разовое — 3000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 8 занятий — 23000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 24 занятия — 69000 ₽</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Онлайн-занятия (60 мин)</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Разовое — 2500 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 8 занятий — 19000 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Абонемент 24 занятия — 57000 ₽</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="courses__course-category">
+						<h2 class="courses__course-category-title">ЗАПИСЬ ТРЕКА</h2>
+						<div class="courses__course-category-flexbox courses__course-category-flexbox_two df">
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Соло-запись</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">1 час записи, сведение, тюнинг вокала, монтаж — 4900 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="c	ourses__course-list-item-name">Для учеников с абонементом — 4500 ₽</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="courses__course-column df">
+								<div class="courses__course-wrap goto scaleble df" data-goto=".form">
+									<div class="courses__course df">
+										<h3 class="courses__course-title">Дуэт-запись</h3>
+										<ul class="courses__course-list">
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">1 час записи, сведение, тюнинг, монтаж — 6900 ₽</span></li>
+											<li class="courses__course-list-item df"><img src="../images/icons/star.svg" alt="Point" class="courses__course-list-icon"><span class="courses__course-list-item-name">Для учеников с абонементом — 6500 ₽</span></li>
+										</ul>
+										<div class="courses__course-get-wrap">
+											<button class="courses__course-get scaleble link goto" data-goto=".form">Записаться</button>
+										</div>
 									</div>
 								</div>
 							</div>
@@ -138,6 +362,6 @@
 		</div>
 	</footer>
 	<script src="https://api-maps.yandex.ru/2.1/?apikey=cd5db98d-3ac6-47e1-b994-d3f77268c038&amp;lang=ru_RU" type="text/javascript" defer></script>
-	<script src="../scripts/contacts.js"></script>
+	<script src="../scripts/courses.js"></script>
 </body>
 </html>
