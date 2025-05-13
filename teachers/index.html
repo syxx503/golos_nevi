@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="format-detection" content="telephone=no">
 	<link rel="shortcut icon" href="../images/logo/favicon.png" type="image/png">
-	<link media="screen" onload='if(media!="all") media="all"' rel="stylesheet" href="../styles/contacts.css">
+	<link media="screen" onload='if(media!="all") media="all"' rel="stylesheet" href="../styles/teachers.css">
 </head>
 <body>
 	<header class="header">
@@ -22,9 +22,9 @@
 						<div class="header__content">
 							<nav class="header__nav df">
 								<ul class="header__list df">
-									<li class="header__list-item" data-aos="fade-down" data-aos-delay="100"><a class="header__list-item-link" href="./courses" data-link=".courses">Курсы</a></li>
-									<li class="header__list-item" data-aos="fade-down" data-aos-delay="200"><a class="header__list-item-link" href="./teachers" data-link=".certificates">Преподаватели</a></li>
-									<li class="header__list-item header__list-item_active" data-aos="fade-down" data-aos-delay="300"><a class="header__list-item-link" href="#"  data-link=".contacts">Контакты</a></li>
+									<li class="header__list-item" data-aos="fade-down" data-aos-delay="100"><a class="header__list-item-link" href="../courses" data-link=".courses">Курсы</a></li>
+									<li class="header__list-item header__list-item_active" data-aos="fade-down" data-aos-delay="200"><a class="header__list-item-link" href="#" data-link=".certificates">Преподаватели</a></li>
+									<li class="header__list-item" data-aos="fade-down" data-aos-delay="300"><a class="header__list-item-link" href="../contacts/" data-link=".contacts">Контакты</a></li>
 								</ul>
 								<div class="header__call-wrap df" data-aos="fade-down" data-aos-delay="400">
 									<a class="header__call-link scaleble" href="tel:78125671209">
@@ -41,45 +41,101 @@
 			</div>
 		</div>
 	</header>
-	<section class="contacts">
+	<section class="teachers">
 		<div class="container">
-			<div class="contacts__wrapper">
-				<div class="contacts__content">
-					<h1 class="contacts__title title">Свяжитесь с нами или <span>задайте вопрос ниже</span></h1>
-					<div class="contacts__flexbox df">
-						<div class="contacts__column contacts__column_1 df">
-							<div class="contacts__illlustration-wrap">
-								<img src="../images/contacts/illustration.svg" alt="Illustration">
+			<div class="teachers__wrapper">
+				<h1 class="teachers__title title" data-aos="fade-right">Наши опытные преподаватели</h1>
+				<div class="teachers__content-row df">
+					<div class="teachers__content-column teachers__content-column_1 df">
+						<div class="teachers__teacher teacher df" data-aos="fade-down">
+							<div class="teacher__image"><img src="../images/teachers/people/1.jpg" alt="Teacher 1"></div>
+							<div class="teacher__info-wrap">
+								<h3 class="teacher__name">Александра Петрова</h3>
+								<p class="teacher__post">Основатель вокальной студии «Голос Невы»</p>
+								<ul class="teacher__list">
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Образование: высшее музыкальное</span></li>
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Стаж преподавания: 10 лет</span></li>
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Проводит уроки игры на гитаре и сценического движения</span></li>
+								</ul>
 							</div>
 						</div>
-						<div class="contacts__column contacts__column_2 df">
-							<div class="contacts__contacts-wrap df">
-								<div class="contacts__contacts-column contacts__contacts-column_1 df">
-									<div class="contacts__contacts-item contacts__contacts-item_1 scaleble">
-										<a class="contacts__contacts-link" href="https://yandex.ru/maps/-/CHvINZI1"></a>
-										<h3 class="contacts__contacts-title"><img src="../images/icons/geo.svg" alt="Location">Адрес</h3>
-										<p class="contacts__contacts-text">Большой проспект Васильевского острова, 65</p>
-									</div>
-									<div class="contacts__contacts-item contacts__contacts-item_2 scaleble">
-										<a class="contacts__contacts-link" href="tel:+78125671209"></a>
-										<h3 class="contacts__contacts-title"><img src="../images/icons/call-yellow.svg" alt="Call">Телефон</h3>
-										<p class="contacts__contacts-text">+7 (812) 567-12-09<br>Звонки принимаются в рабочее время</p>
-									</div>
-								</div>
-								<div class="contacts__contacts-column contacts__contacts-column_2 df">
-									<div class="contacts__contacts-item contacts__contacts-item_2">
-										<h3 class="contacts__contacts-title"><img src="../images/icons/time.svg" alt="Location">Время работы</h3>
-										<p class="contacts__contacts-text">ПН–ВС с 11:00 до 21:00<br>Занятия проходят по предварительной записи</p>
-									</div>
-									<div class="contacts__contacts-item contacts__contacts-item_1">
-										<h3 class="contacts__contacts-title"><img src="../images/icons/star.svg" alt="Call">Email и соц. сети</h3>
-										<ul class="contacts__contacts-list">
-											<li class="contacts__contacts-list-item contacts__contacts-text"><a href="mailto:golosnevi@mail.ru" class="contacts__contacts-list-link"><img src="../images/icons/mail.svg" alt="Mail">golosnevi@mail.ru</a></li>
-											<li class="contacts__contacts-list-item contacts__contacts-text"><a href="https://vk.com/golosnevi" class="contacts__contacts-list-link"><img src="../images/icons/vk.svg" alt="VK">ВКонтакте</a></li>
-											<li class="contacts__contacts-list-item contacts__contacts-text"><a href="https://t.me/golosnevi" class="contacts__contacts-list-link"><img src="../images/icons/telegram.svg" alt="Telegram">Telegram</a></li>
-										</ul>
-									</div>
-								</div>
+					</div>
+					<div class="teachers__content-column teachers__content-column_2 df">
+						<div class="teachers__teacher teacher df" data-aos="fade-down">
+							<div class="teacher__image"><img src="../images/teachers/people/2.jpg" alt="Teacher 2"></div>
+							<div class="teacher__info-wrap">
+								<h3 class="teacher__name">София Степанова</h3>
+								<p class="teacher__post">Педагог-эксперт по вокалу</p>
+								<ul class="teacher__list">
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Образование: высшее музыкальное, окончила</span></li>
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Санкт-Петербургскую консерваторию имени Н.А. Римского-Корсакова</span></li>
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Стаж преподавания: 20 лет</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="teachers__content-column teachers__content-column_3 df">
+						<div class="teachers__teacher teacher df" data-aos="fade-down">
+							<div class="teacher__image"><img src="../images/teachers/people/3.jpg" alt="Teacher 3"></div>
+							<div class="teacher__info-wrap">
+								<h3 class="teacher__name">Юлия Зиновьева</h3>
+								<p class="teacher__post">Педагог по вокалу</p>
+								<ul class="teacher__list">
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Образование: высшее музыкальное</span></li>
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Стаж преподавания: 5 лет</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="teachers__content-column teachers__content-column_4 df">
+						<div class="teachers__teacher teacher df" data-aos="fade-down">
+							<div class="teacher__image"><img src="../images/teachers/people/4.jpg" alt="Teacher 4"></div>
+							<div class="teacher__info-wrap">
+								<h3 class="teacher__name">Максим Сергеев</h3>
+								<p class="teacher__post">Педагог игры на гитаре</p>
+								<ul class="teacher__list">
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Образование: высшее музыкальное</span></li>
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Стаж: 7 лет</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="teachers__content-column teachers__content-column_5 df">
+						<div class="teachers__teacher teacher df" data-aos="fade-down">
+							<div class="teacher__image"><img src="../images/teachers/people/5.jpg" alt="Teacher 5"></div>
+							<div class="teacher__info-wrap">
+								<h3 class="teacher__name">Николай Соловьев</h3>
+								<p class="teacher__post">Педагог по сценическому движению и актерскому мастерству</p>
+								<ul class="teacher__list">
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Образование: высшее, актер театра и кино</span></li>
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Стаж преподавания: 15 лет</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="teachers__content-column teachers__content-column_6 df">
+						<div class="teachers__teacher teacher df" data-aos="fade-down">
+							<div class="teacher__image"><img src="../images/teachers/people/6.jpg" alt="Teacher 6"></div>
+							<div class="teacher__info-wrap">
+								<h3 class="teacher__name">Леонид Васильев</h3>
+								<p class="teacher__post">Педагог по основам актерского мастерства</p>
+								<ul class="teacher__list">
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Образование: высшее, актер театра и кино</span></li>
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Стаж преподавания: 18 лет</span></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="teachers__content-column teachers__content-column_7 df">
+						<div class="teachers__teacher teacher df" data-aos="fade-down">
+							<div class="teacher__image"><img src="../images/teachers/people/7.jpg" alt="Teacher 7"></div>
+							<div class="teacher__info-wrap">
+								<h3 class="teacher__name">Марина Алешина</h3>
+								<p class="teacher__post">Педагог по вокалу и игре на гитаре</p>
+								<ul class="teacher__list">
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Образование: высшее музыкальное</span></li>
+									<li class="teacher__list-item df"><img src="../images/icons/star.svg" alt="Icon" class="teacher__list-item-icon"><span class="teacher__list-item-name">Стаж преподавания: 11 лет</span></li>
+								</ul>
 							</div>
 						</div>
 					</div>
@@ -138,6 +194,6 @@
 		</div>
 	</footer>
 	<script src="https://api-maps.yandex.ru/2.1/?apikey=cd5db98d-3ac6-47e1-b994-d3f77268c038&amp;lang=ru_RU" type="text/javascript" defer></script>
-	<script src="../scripts/contacts.js"></script>
+	<script src="../scripts/teachers.js" defer></script>
 </body>
 </html>
